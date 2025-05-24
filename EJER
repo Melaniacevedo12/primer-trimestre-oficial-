@@ -1,0 +1,7 @@
+git int 
+git add
+git commit-m"EJEMPLO"
+gint branch-M main 
+git remote add origin https://github.com/Melaniacevedo12/EJEMPLO.git
+git brach -M main
+git pus- u origin main
