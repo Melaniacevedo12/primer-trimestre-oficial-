@@ -23,30 +23,30 @@ print("MATEMATICAS")
 not1=int(input("ingrese su primera nota:"))
 not2=int(input("ingrese su segundo nota:"))
 not3=int(input("ingrese su tercera nota:"))
-op2=(not1+not2+not3)/3
+op2=(not1+not2+not3)//3
 print(estudiante,"su nota final de matematicas fue de: ",op2)
 print("-------------------------------------------------------------------------------------------------------")
 print("HUMANIDADES")
 no1=int(input("ingrese su primera nota:"))
 no2=int(input("ingrese su segundo nota:"))
 no3=int(input("ingrese su tercera nota:"))
-op3=(no1+no2+no3)/3
+op3=(no1+no2+no3)//3
 print(estudiante,"su nota final de humanidades fue de: ",op3)
 print("-------------------------------------------------------------------------------------------------------")
 print("ETICA")
 n1=int(input("ingrese su primera nota:"))
 n2=int(input("ingrese su segundo nota:"))
 n3=int(input("ingrese su tercera nota:"))
-op4=(n1+n2+n3)/3
+op4=(n1+n2+n3)//3
 print(estudiante,"su nota final de etica fue de: ",op4)
 print("-------------------------------------------------------------------------------------------------------")
 print("EMPRENDIMIENTO")
 a1=int(input("ingrese su primera nota:"))
 a2=int(input("ingrese su segundo nota:"))
 a3=int(input("ingrese su tercera nota:"))
-op5=(a1+a2+a3)/3
+op5=(a1+a2+a3)//3
 print(estudiante,"su nota final de emprendimiento fue de: ",op5)
 print("-------------------------------------------------------------------------------------------------------")
 print("PROMEDIO DEL ESTUDIANTE")
-promedio=op1+op2+op3+op4+op5
+promedio=(op1+op2+op3+op4+op5)//5
 print("el estudiante",estudiante,"tuvo ub promedio de: ",promedio)
