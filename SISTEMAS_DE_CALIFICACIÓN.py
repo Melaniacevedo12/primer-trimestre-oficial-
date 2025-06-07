@@ -38,7 +38,7 @@ n1=int(input("ingrese su primera nota:"))
 n2=int(input("ingrese su segundo nota:"))
 n3=int(input("ingrese su tercera nota:"))
 op4=(n1+n2+n3)//3
-print(estudiante,"su nota final de etica fue de: ",op4)
+print(f"{estudiante}su nota final de etica fue de {op4}")
 print("-------------------------------------------------------------------------------------------------------")
 print("EMPRENDIMIENTO")
 a1=int(input("ingrese su primera nota:"))
