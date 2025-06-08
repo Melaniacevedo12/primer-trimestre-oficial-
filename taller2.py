@@ -33,9 +33,9 @@ print("*****************************************ejercicio 3*********************
 
 print("Este programa le dira si el numero que cocoque es par")
 
-numer=int(input("Ingrese un numero: "))
+number=int(input("Ingrese un numero: "))
 
-if  numer 2%==0:
+if number 2 % == 0:                         #profe la verdad nose cual es error
     print("el numero es par")
 else:
     ("el numero es impar")
@@ -242,107 +242,101 @@ print(tupla)
 
 print("*****************************************ejercicio 19****************************************")
 
+print("dada una tupla aceder a su sengundo valor")
 
+tupl=(4,5)
 
+if tupl [1] > 5:
+    print("coordenada alta")
+else:
+    print("coordenada baja")
 
+print("*****************************************ejercicio 20****************************************")
 
+print("dada las tuplas deben se ser iguales si no se cumple lo dicho el programa termina")
 
+tuplita1=(3,4)
+tuplita2=(3,5)
 
+if tuplita1 == tuplita2:
+    print("tuplas iguales")
+else:
+    print("tupla diferente")
 
+print("___________________________________________________________________________________________")
+print("--------------------Ejercicio de condiciones y operaciones matematicas---------------------")
+print("___________________________________________________________________________________________")
 
+print("*****************************************ejercicio 21****************************************")
 
+print("crea un deccionario con lo requerido en el ejercico")
 
+nom1=input("cual es su nombre: ")
+edad1=int(input("ingrese su edad: "))
 
+diccionario={ 
+             "nombre":nom1,
+             "edad":edad1
+}
 
+if edad1 >= 18:
+    print("mayor de edad")
+else:
+    print("menor de edad")
 
+print("*****************************************ejercicio 22****************************************")
 
+print("crear un diccionario si es mayor a 18 cambiarlo por 21")
 
+nom2=input("cual es su nombre: ")
+edad2=int(input("ingrese su edad: "))
 
+diccionario1={ 
+             "nombre":nom2,
+             "edad":edad2
+}
 
+if diccionario1["edad2"] >18:
+    diccionario1["edad"]=21
+    print("diccionario1")
 
+else:
+    print("fin")
 
+print("*****************************************ejercicio 23****************************************")
 
+nom8=input("cual es su nombre: ")
 
+usuario={"nombre":nom8}
 
+if "ciudad" not in usuario:         # el " not in " sirve para verificar si un valor NO está contenido dentro de una secuencia, como una lista, tupla o cadena
+    usuario["ciudad"]="Bogota"  
+    print(usuario)   
+else:
+    print("fin") 
 
+print("*****************************************ejercicio 24****************************************")
 
+print("verificar si la clave existe")
 
+product={  
+    "producto": "pan" ,
+    "precio":1200
+}
 
+if "precio" in product:
+    print(product["precio"])
+else:
+    print("no hay precio")
 
+print("*****************************************ejercicio 25****************************************")
 
+prod={    
+    "pan":1200,
+    "leche":2000
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if "pan" in prod:
+    print(prod["pan"])
+else:
+    print("producto no disponible")
