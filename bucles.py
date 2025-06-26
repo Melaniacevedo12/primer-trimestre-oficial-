@@ -51,23 +51,26 @@
 #
 #print("ingrese notas de 0 a 5 con numeros enteros NO deccimales")
 
-notas=[]  
-notas.append(int(input("ingrese la primera nota: ")))
-notas.append(int(input("ingrese la segunda nota: ")))
-notas.append(int(input("ingrese la tercera nota: ")))
-notas.append(int(input("ingrese la cuarta nota: ")))
-notas.append(int(input("ingrese la quinta nota: ")))
-
-
+notas = []
 while True:
-    p=input("escribe algo(o escribe 'salir'para saber sus notas): ").lower()
-    if p == "salir":
+    entrada = input("Ingresa una nota (o 'salir' para terminar): ")
+    if entrada == "salir":
         break
-print(f"tus notas son: {notas}")
+    nota = float(entrada)
+    if 0 <= nota <= 5:
+        notas.append(nota)
+promedio = sum(notas) / len(notas) if notas else 0
+print("Promedio de calificaciones:", promedio)
 
-promedio= notas // 5 
+print("-------------------------------------------EJERCICIO 6---------------------------------------")
 
-print(f"tu promedio es: {promedio}")
+numero12=int(input("Ingresa un número para ver su tabla: "))
+tabla = 1
+while tabla <= 10:
+    print(f"{numer012} x {tabla} = {numero12 * tabla}")
+    tabla += 1
+
+
 
 
 
